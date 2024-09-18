@@ -377,6 +377,36 @@ You've now set up a Scrapy spider that:
 - **Allows easy adjustment of the domain name** without modifying the code.
 - **Customizes output folders** based on your requirements.
 
+Additional setup 
+
+Navigate to the Project Root Directory
+
+In your command prompt or terminal, navigate to the directory where run_spider.py is located.
+
+bash
+Copy code
+cd C:\Users\kelvi\site_crawler\site_crawler
+Run the Script from the Correct Directory
+
+Now, run the run_spider.py script:
+
+bash
+Copy code
+python run_spider.py
+Provide Input When Prompted
+
+You'll be prompted to enter the domain name and output directory.
+
+plaintext
+Copy code
+Please enter the domain name to crawl (e.g., example.com): yourdomain.com
+Please enter the output directory (leave blank for default):
+Domain Name: Enter the domain you wish to crawl (e.g., thedomainname.co.uk).
+Output Directory: Press Enter to use the default (scraped_sites), or specify a custom directory.
+Wait for the Spider to Complete
+
+The spider will start crawling the specified domain and save the scraped data into the output directory.
+
 Feel free to adjust the code to suit your specific needs.
 
 ---
