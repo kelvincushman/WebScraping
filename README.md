@@ -158,12 +158,12 @@ After running the spider, your project directory will look like this:
 ```
 site_crawler/
 ├── scraped_sites/
-│   └── london_electricians_247_co_uk/
+│   └── whateverdomainname_co_uk/
 │       ├── index.html
 │       ├── services/
 │       │   ├── index.html
-│       │   ├── emergency-electrician.html
-│       │   └── electrical-installations.html
+│       │   ├── whateverdomainname.html
+│       │   └── whateverdomainname.html
 │       ├── contact/
 │       │   └── index.html
 │       └── about/
