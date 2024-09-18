@@ -1,6 +1,6 @@
 # WebScraping
 Kelvins web scraping 
-Certainly! Below is the full code for the Scrapy spider that you can use to crawl any website, extract all text data from each page, and save each page's content into separate folders that mirror the website's structure. The code is commented to make it easy for you to adjust the domain name and customize output folders.
+Below is the full code for the Scrapy spider that you can use to crawl any website, extract all text data from each page, and save each page's content into separate folders that mirror the website's structure. The code is commented to make it easy to adjust the domain name and customize output folders.
 
 ---
 
