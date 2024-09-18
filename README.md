@@ -98,7 +98,7 @@ You can adjust the domain name and output directory without modifying the code b
 **Example:**
 
 ```bash
-scrapy crawl site_spider -a domain=london-electricians-247.co.uk -a output_dir=scraped_sites
+scrapy crawl site_spider -a domain=whateverdomainname.co.uk -a output_dir=scraped_sites
 ```
 
 - **domain**: The domain you wish to crawl.
@@ -117,15 +117,15 @@ cd ..
 Run the spider with the desired domain:
 
 ```bash
-scrapy crawl site_spider -a domain=london-electricians-247.co.uk -a output_dir=scraped_sites
+scrapy crawl site_spider -a whateverdomainname.co.uk -a output_dir=scraped_sites
 ```
 
 This command will:
 
-- Crawl the website `https://london-electricians-247.co.uk/`
+- Crawl the website `https://whateverdomainname.co.uk/`
 - Extract all text from each page
 - Save each page's content into separate folders, maintaining the website's structure
-- Place the scraped data into a folder named `scraped_sites/london_electricians_247_co_uk`
+- Place the scraped data into a folder named `scraped_sites/whateverdomainname_co_uk`
 
 ---
 
